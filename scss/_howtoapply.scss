@@ -1,0 +1,39 @@
+.apply {
+    &__wrapper {
+        @include flex(row, space-between, none);
+        margin-top: 160px;
+        gap: 500px;
+    }
+
+    &__slogan {
+        margin: 100px 0 0 0;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 40px;
+        color: $Color-1;
+        letter-spacing: 0.1em;
+    }
+
+    &__title {
+        margin: 40px 0 0 0;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 40px;
+        color: $Color-2;
+    }
+
+    &__img {
+        width: 720.19px;
+        height: 678.76px;
+        position: relative;
+
+        img {
+            position: absolute;
+            left: -125px;
+        }
+    }
+}

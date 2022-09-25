@@ -1,0 +1,73 @@
+.header {
+    background-image: url('../img/mobel.svg'), url('../img/Scene.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left 790px, center top;
+    min-height: 1240px;
+
+    &__title {
+        max-width: 741px;
+        margin: 95px 0 0 0;
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+
+    &__link {
+        margin: 60px 0 0 0;
+        position: relative;
+
+        a {
+            padding: 20px 78px 20px 25px;
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #fff;
+            background-color: $Color-1;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        img {
+            position: absolute;
+            top: 24px;
+            left: 160px;
+        }
+    }
+}
+
+.menu {
+    @include flex(row, space-between);
+
+    &__list {
+        @include flex(row, space-between);
+        margin: 40px 0 0 0;
+    }
+
+    &__link {
+        display: block;
+        padding: 20px 25px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration: none;
+        letter-spacing: 0.05em;
+        color: #fff;
+    }
+
+    &__link_active {
+        background-color: $Color-1;
+        border-radius: 5px;
+    }
+
+    .logo {
+        margin: 40px 0 0 0;
+    }
+}

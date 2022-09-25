@@ -1,0 +1,48 @@
+.about {
+    &__wrapper {
+        @include flex(row, none, none);
+        margin: 100px 0 0 0;
+    }
+
+    &__slogan {
+        margin-top: 40px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 40px;
+        color: $Color-1;
+        letter-spacing: 0.1em;
+
+    }
+
+    &__title {
+        margin-top: 40px;
+        max-width: 470px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 40px;
+        color: $Color-2;
+    }
+
+    &__question {
+        background: rgba(252, 221, 212, 0.4);
+        margin-top: 70px;
+        padding: 30px 55px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-left: 10px solid $Color-1;
+
+        p {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            color: $Color-2;
+        }
+    }
+}
+

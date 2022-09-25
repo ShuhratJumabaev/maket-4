@@ -1,0 +1,17 @@
+body {
+    background-color: #fef8f5;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+@import './fonts';
+@import './mixin';
+@import './header';
+@import './aboutus';
+@import './howtoapply';
+@import './faq';
+@import './testi';
+@import './footer';

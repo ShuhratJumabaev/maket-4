@@ -1,0 +1,11 @@
+@mixin flex($ff, $jc: space-between, $ai: center) {
+    display: flex;
+    flex-flow: $ff;
+    justify-content: $jc;
+    align-items: $ai;
+}
+@mixin bgimg($bs, $bp) {
+    background-size: $bs;
+    background-position: $bp;
+    background-repeat: no-repeat;
+}
