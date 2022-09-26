@@ -338,7 +338,7 @@ input:checked ~ .faq__dropdown {
 .testi .slick-arrow.slick-prev {
   margin-left: 800px;
 }
-.testi .slick-arrow.slick-prev s img {
+.testi .slick-arrow.slick-prev img {
   transform: rotate(-180deg);
   transform-origin: center;
 }
